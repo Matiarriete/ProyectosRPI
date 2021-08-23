@@ -1,7 +1,7 @@
 #!/bin/bash
-cd prueba/Adafruit_Python_DHT/examples/
+cd prueba/examples/
 while [ true ]
 do
 	python AdafruitDHT.py 11 4
-	sleep 10
+	sleep 1
 done
