@@ -1,1 +1,2 @@
+-- PiBooth -- Cabina de fotos --
 https://github.com/pibooth
