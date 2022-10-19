@@ -130,9 +130,10 @@ try:
 		decimas = contador/10
 		for i in range(1000):
 			INICIALIZAR_DISPLAY()
-			PRINT_DISPLAY(0, unidades)
-			INICIALIZAR_DISPLAY()
 			PRINT_DISPLAY(1, decimas)
-			time.sleep(0.00085)
+			time.sleep(0.0004)
+			INICIALIZAR_DISPLAY()
+			PRINT_DISPLAY(0, unidades)
+			time.sleep(0.0004)
 	contador = contador + 1
 finally: GPIO.cleanup()
